@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            background-color: red;
+            border-radius: 30px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: rgb(22, 32, 41);
+        }
+        .navbar li a:hover{
+            color: aqua;
+            
+
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 7px;
+            width: 90px;
+            padding: 3px 10px;
+            margin-left: 90%;
+        }
+        img{
+            margin: auto;
+            width: 50px;
+            display: block;
+
+            /* img display is inline mean take required space only if you want to center it first display block than give width */
+        }
+        header{
+            border: 2px red solid;
+            margin: auto;
+            width: 1200px;
+            /* div is block mean take complete space  */
+
+        }
+        /* if we center the element in div so we don't need to change with of div..  */
+        h3{
+            text-align: center;
+            margin: auto;
+        }
+
+        .box{
+            border: 3px solid blue;
+            margin: 3px;
+            background-color: gray;
+            margin: 4px 0px;
+            padding: 23px;
+            display: inline-block;
+            box-sizing: border-box;
+            width: 30%;
+        }
+        .container2{
+            margin: auto;
+            width: 1200px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="">home</a></li>
+                <li> <a href="">about</a></li>
+                <li> <a href="">service</a></li>
+                <li> <a href="">contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search this website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <header class="top">
+        <img src="https://codewithharry.com/img/logo-blue.png" alt="">
+        <h3>welcome header</h3>
+    </header>
+<div class="container2">
+    <div class="box">
+        <h4 class="heading">heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nesciunt voluptates dignissimos corrupti est deserunt exercitationem consectetur velit voluptatibus doloribus accusantium nam mollitia, quos explicabo amet ea omnis porro alias distinctio dolorum sint! Nostrum impedit temporibus reprehenderit laudantium odit, perspiciatis ea atque id modi.</p>
+    </div>
+    <div class="box">
+        <h4 class="heading">heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nesciunt voluptates dignissimos corrupti est deserunt exercitationem consectetur velit voluptatibus doloribus accusantium nam mollitia, quos explicabo amet ea omnis porro alias distinctio dolorum sint! Nostrum impedit temporibus reprehenderit laudantium odit, perspiciatis ea atque id modi.</p>
+    </div>
+    <div class="box">
+        <h4 class="heading">heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nesciunt voluptates dignissimos corrupti est deserunt exercitationem consectetur velit voluptatibus doloribus accusantium nam mollitia, quos explicabo amet ea omnis porro alias distinctio dolorum sint! Nostrum impedit temporibus reprehenderit laudantium odit, perspiciatis ea atque id modi.</p>
+    </div>
+</div>
+</body> 
+</html>
